@@ -1,0 +1,97 @@
+:root {
+    --global-color: #13801F;
+    --text-color: #50DC62;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ab-header {
+    background: var(--global-color);
+    color: var(--text-color);
+}
+
+.ab-login-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ab-login-icon {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ab-page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ab-table-tr {
+    width: 100%
+}
+
+.ab-table-td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.ab-column-right {
+    background: #f9f9f9;
+}
+
+.ab-menu {
+    height: 100vh;
+    padding: 20px 5px;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+.ab-menu-group {
+    padding-left: 0;
+}
+
+.ab-menu-item {
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.ab-menu-item-link {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: var(--global-color);
+}
+
+.ab-menu-item-link:hover {
+    background: #f9f9f9;
+    text-decoration: none;
+    color: var(--global-color);
+}
+
+.ab-menu-item-link.active {
+    background: var(--global-color);
+    color: var(--text-color);
+}
+
+.ab-sticky-menu {
+    position: sticky;
+    top: 0;
+    background: var(--global-color);
+    color: var(--text-color);
+    z-index: 1000;
+}
+
+.ab-page-conten .h6 {
+    line-height: 1.5;
+}
