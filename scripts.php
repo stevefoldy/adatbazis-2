@@ -30,7 +30,7 @@
     /* loader */
     var myLoader;
 
-    function mpLoader() {
+    function abLoader() {
         myLoader = setTimeout(showPage, 1000);
     }
 

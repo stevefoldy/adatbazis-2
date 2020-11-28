@@ -2,7 +2,7 @@
 
 $page = 'support';
 $title = 'Termékek - MarketPlace';
-$contentTitle = 'Segítség';
+$contentTitle = 'Forráskód';
 
 ob_start();
 include "pages/contents/support_page.php";

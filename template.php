@@ -3,7 +3,7 @@
     <head>
         <?php include 'components/pagehead.php'; ?>
     </head>
-    <body onload="mpLoader()" style="height: 100vh">
+    <body onload="abLoader()" style="height: 100vh">
         <div id="ab-loader">
             <div class="ab-loader-icon"></div>
             <div class="ab-loader-icon-sm"></div>
